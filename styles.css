@@ -109,7 +109,7 @@ main{
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
     margin-top: 5.2rem;
-    margin-bottom: 5.2rem;
+    
 }
 
 
@@ -147,8 +147,77 @@ main{
 
 /* main>team container styles end */
 
+/* main>features secton styles start */
 
+.features-container{
+    display: flex;
+    margin-top: 5.2rem;
+    gap: 145px;
+}
 
+.features-title{
+    color: var(--Dark-01, #131313);
+    font-size: 2.5rem;
+    font-weight: 700;
+    border-left: 5px solid orange;
+    
+}
+.features-description{
+    color: var(--Dark-03, #727272);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+ .features-card{
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 40px;
+    margin-bottom: 2.5rem;
+   
+}
+.f-card-title{
+    color: var(--Dark-01, #131313);
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.f-card-description{
+    color: var(--Dark-03, #727272);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.features-img img{
+    border-radius: 8px;
+}
+
+.experience{
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 3rem;
+    width: 340px;
+    position: relative;
+    bottom: 100px;
+    right: 80px;
+    text-align: center;
+    margin: 0px;
+}
+
+.experience h4{
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.experience p{
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
 
 
 

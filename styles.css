@@ -270,6 +270,51 @@ main{
 
 }
 
+/* main>soponsors section styles start */
+.sponsors{
+
+}
+.sponsors-title{
+    color: var(--Dark-01, #131313);
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.sponsors-description{
+    color: var(--Dark-03, #727272);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+.sponsors-content{
+   display: flex;
+   justify-content: space-around;
+   margin-top: 50px;
+   margin-bottom: 150px;
+}
+/* sponsors section styles end */
+
+
+/* footer section styles start */
+footer{
+    background: #FFF4E7;
+    text-align: center;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    margin: 130px 240px 215px 240px;
+    padding: 40px;
+}
+
+.footer-text{
+    color: var(--Dark-02, #424242);
+    font-size: 1.2rem;
+    font-weight: 400;
+}
 
 
 /* responsive start */

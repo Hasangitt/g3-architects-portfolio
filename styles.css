@@ -250,8 +250,36 @@ main{
 
     .team-img{
         grid-template-columns: 1fr;
+        margin-bottom: 25px;
 
     }
+
+    /* features section reponsive */
+    .features-container{
+        flex-direction: column;
+        padding: 80px;
+        margin: 0px;
+        gap: 0px;
+    }
+
+    .feature-content{
+        margin: 0px;
+    }
+
+    .features-img img{
+        width: 100%;
+        margin: 0px;
+    }
+
+
+    .experience{
+        padding: 30px 10px;
+        width: 250px;
+        right: 60px;
+    }
+    
+        
+    
 }
 
 
@@ -282,10 +310,38 @@ main{
     }
 
     .team-img img{
+        padding: 0px 10px;
         width: 100%;
         margin: 0px auto;
     }
+
+
+    /* features section reponsive */
+    .features-container{
+        flex-direction: column;
+        padding: 80px;
+        margin: 0px;
+        gap: 0px;
+    }
+
+    .feature-content{
+        margin: 0px;
+    }
+
+    .features-img img{
+        width: 100%;
+        margin: 0px;
+    }
+
+
+    .experience{
+        padding: 30px 10px;
+        width: 250px;
+        right: 60px;
+    }
+    
    
 }
+
 
 /* responsive end */
